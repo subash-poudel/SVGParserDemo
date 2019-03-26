@@ -59,10 +59,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        button_start.setOnClickListener({
-            val rect = RectF(10f, 10f, 100f, 100f)
-            val bitmap = SVGHelper.getBitmap(this, svg, rect)
-            img_view.setImageBitmap(bitmap)
-        })
+        val rect = RectF(10f, 10f, 1000f, 1000f)
+        val bitmap = SVGHelper.getBitmap(this, svg, rect)
+        img_view.setImageBitmap(bitmap)
     }
 }
