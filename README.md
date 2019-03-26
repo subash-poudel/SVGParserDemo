@@ -12,7 +12,5 @@ val bitmap = SVGHelper.getBitmap(this, svg, rect) // svg is the SVG as string
 img_view.setImageBitmap(bitmap)
 ```
 
-## ScreenShot
-
-[ScreenShot](./images/svg-ex.jpg)
+![ScreenShot](./images/svg-ex.jpg)
 
